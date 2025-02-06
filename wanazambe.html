@@ -130,24 +130,116 @@
 </nav>
 
 
-<div class="container py-5">
-  
-  
-    <!-- Instrumentalists Section -->
-    <div class="row align-items-center mb-5" data-aos="fade-up">
-      <div class="col-md-6 order-md-2">
-        <img src="img/2.jpg" alt="Instrumentalists Ministry" class="img-fluid rounded shadow-lg" loading="lazy">
+<div class="container my-5">
+  <div class="commitment-form p-5 rounded shadow-lg">
+      <h2 class="text-center form-title">🎸 Instrumentalists Ministry Commitment Form</h2>
+      <p class="text-center text-muted">"Honoring God Through Music"</p>
+
+      <!-- PERSONAL INFORMATION -->
+      <div class="section">
+          <h4 class="section-title">📌 Personal Information</h4>
+          <div class="row g-3">
+              <div class="col-md-6">
+                  <label class="form-label">Full Name:</label>
+                  <input type="text" class="form-control" placeholder="Enter your full name">
+              </div>
+              <div class="col-md-6">
+                  <label class="form-label">Phone Number:</label>
+                  <input type="text" class="form-control" placeholder="Enter your phone number">
+              </div>
+          </div>
       </div>
-      <div class="col-md-6 order-md-1">
-        <h2 class="fw-bold">Instrumentalists Ministry</h2>
-        <p>The Instrumentalists Ministry uses the power of instruments to glorify God and support the worship experience.</p>
-        <a href="contact.html" class="btn btn-primary mt-3">Join Us</a>
-        <a href="commitment.html" class="btn btn-primary mt-3">fill commitmentForm</a>
+
+      <!-- MINISTRY COMMITMENT -->
+      <div class="section">
+          <h4 class="section-title">🎶 Ministry Commitment</h4>
+          <p>
+              I commit to serving as an instrumentalist, understanding that my role extends beyond playing music—it is a ministry to glorify God, support worship, and build unity. By signing this form, I agree to:
+          </p>
+          <ul class="custom-list">
+              <li>🎵 <b>Regular Attendance:</b> Participating in rehearsals, services, and special events.</li>
+              <li>⏳ <b>Punctuality & Preparation:</b> Arriving on time and fully prepared.</li>
+              <li>🤝 <b>Unity & Respect:</b> Collaborating with the worship team and leadership.</li>
+              <li>📈 <b>Growth:</b> Continuously improving my musical skills for God's glory.</li>
+          </ul>
       </div>
-    </div>
-  
+
+      <!-- MINISTRY ACTIVITIES -->
+      <div class="section">
+          <h4 class="section-title">🎹 Ministry Activities</h4>
+          <ul class="custom-list">
+              <li>📅 Playing during Friday fellowships, Sunday services, and special worship events.</li>
+              <li>🎼 Attending weekly rehearsals and extra practice when required.</li>
+              <li>🎤 Supporting CU concerts, outreach services, and worship experiences.</li>
+              <li>📊 Participating in team meetings for ministry improvement.</li>
+          </ul>
+      </div>
+
+      <!-- MINISTRY POLICIES -->
+      <div class="section">
+          <h4 class="section-title">📜 Ministry Policies</h4>
+          <ul class="custom-list">
+              <li>🕒 <b>Punctuality:</b> Must arrive on time for all rehearsals and services.</li>
+              <li>📖 <b>Preparation:</b> Reviewing assigned music beforehand.</li>
+              <li>👕 <b>Dress Code:</b> Adhering to church guidelines for neat and respectful attire.</li>
+              <li>🎸 <b>Instrument Care:</b> Taking responsibility for instrument maintenance.</li>
+              <li>🙏 <b>Spiritual Growth:</b> Engaging in prayer, scripture, and church life.</li>
+              <li>🚨 <b>Probation:</b> Misconduct (e.g., inconsistency, secularism, immorality) may lead to probation.</li>
+              <li>📆 <b>New Members:</b> Must complete a 10-week probation period before ministering.</li>
+          </ul>
+      </div>
+
+      <!-- REASON FOR JOINING -->
+      <div class="section">
+          <h4 class="section-title">📝 Why Do You Want to Join?</h4>
+          <textarea class="form-control mb-3" rows="3" placeholder="Write your reasons here..."></textarea>
+      </div>
+
+      <!-- ACKNOWLEDGMENT -->
+      <div class="section">
+          <h4 class="section-title">✅ Acknowledgment & Signature</h4>
+          <p>By signing below, I confirm that I have read, understood, and agree to abide by the ministry policies.</p>
+
+          <div class="row g-3">
+              <div class="col-md-6">
+                  <label class="form-label">Signature:</label>
+                  <input type="text" class="form-control" placeholder="Sign here">
+              </div>
+              <div class="col-md-6">
+                  <label class="form-label">Date:</label>
+                  <input type="date" class="form-control">
+              </div>
+          </div>
+      </div>
+
+      <!-- CHURCH USE ONLY -->
+      <div class="section mt-4">
+          <h4 class="section-title">📜 For Church Use Only</h4>
+          <div class="row g-3">
+              <div class="col-md-6">
+                  <label class="form-label">Ministry Leader:</label>
+                  <input type="text" class="form-control" placeholder="Leader's Name">
+              </div>
+              <div class="col-md-6">
+                  <label class="form-label">Date Approved:</label>
+                  <input type="date" class="form-control">
+              </div>
+          </div>
+      </div>
+
+      <!-- SUBMIT BUTTON -->
+      <div class="text-center mt-4">
+          <button class="btn btn-primary btn-lg" onclick="submitForm()">Submit Commitment</button>
+      </div>
   </div>
-  
+</div>
+
+<script>
+function submitForm() {
+  alert("Thank you for your commitment! Your form has been submitted successfully.");
+}
+</script>
+
 
 
 

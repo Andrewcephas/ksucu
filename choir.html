@@ -130,24 +130,108 @@
 </nav>
 
 
-<div class="container py-5">
+<div class="container my-5">
+  <div class="commitment-form p-5 rounded shadow-lg">
+      <h2 class="text-center form-title">🎶 Choir Ministry Commitment Form</h2>
+      <p class="text-center text-muted">"Worshiping Through Song & Unity"</p>
 
-    <!-- Choir Section -->
-    <div class="row align-items-center mb-5" data-aos="fade-up">
-      <div class="col-md-6">
-        <img src="img/2.jpg" alt="Choir Ministry" class="img-fluid rounded shadow-lg" loading="lazy">
+      <!-- MINISTRY OVERVIEW -->
+      <div class="section">
+          <h4 class="section-title">📜 Ministry Overview</h4>
+          <p>
+              The Choir Ministry is dedicated to worshiping God through live ministration, singing, and dancing, fostering a spirit of unity, encouragement, and praise within the congregation. Our goal is to enhance the worship experience and promote true worship, only for the glory and honor of God.
+          </p>
       </div>
-      <div class="col-md-6">
-        <h2 class="fw-bold">Choir Ministry</h2>
-        <p>The Choir Ministry inspires through melodious hymns and songs, enriching the spiritual journey of members and congregants.</p>
-        <a href="contact.html" class="btn btn-primary mt-3">Join Us</a>
-        <a href="commitment.html" class="btn btn-primary mt-3">fill commitmentForm</a>
 
+      <!-- MINISTRY POLICIES -->
+      <div class="section">
+          <h4 class="section-title">📌 Ministry Policies</h4>
+          <ul class="custom-list">
+              <li>🎤 <b>Attendance:</b> Members must attend all scheduled rehearsals and services unless excused by leadership.</li>
+              <li>⏳ <b>Punctuality:</b> Arrive 15 minutes before rehearsals and ministrations.</li>
+              <li>🤝 <b>Respect:</b> Show kindness to all choir members and leadership.</li>
+              <li>🎼 <b>Commitment:</b> A commitment to the choir means dedication to worship services.</li>
+              <li>📅 <b>Participation:</b> Engage in rehearsals, ministrations, and special events.</li>
+              <li>👕 <b>Ministry Attire:</b> Wear the attire specified by the Attire Committee.</li>
+              <li>🔒 <b>Confidentiality:</b> Keep personal or sensitive ministry matters private.</li>
+              <li>🚨 <b>Dressing Code:</b> No ministration in trousers or short skirts (ladies), tight trousers, T-shirts, open shoes, or unkempt hair (gents).</li>
+              <li>⚠️ <b>Probation:</b> Misconduct (secularism, sexual immorality, inconsistency) may lead to probation or disqualification.</li>
+          </ul>
       </div>
-    </div>
+
+      <!-- MINISTRY ACTIVITIES -->
+      <div class="section">
+          <h4 class="section-title">🎵 Ministry Activities</h4>
+          <ul class="custom-list">
+              <li>📆 Weekly Rehearsals: Preparing for Sunday services and special worship weekends.</li>
+              <li>🤝 Team Fellowship: Strengthening unity through team-building activities.</li>
+              <li>🎼 Workshops & Training: Improving vocal and musical skills through learning sessions.</li>
+              <li>🙏 Spiritual Growth: Engaging in prayers and scripture study for spiritual nourishment.</li>
+          </ul>
+      </div>
+
+      <!-- REASON FOR JOINING -->
+      <div class="section">
+          <h4 class="section-title">📝 Why Do You Want to Join?</h4>
+          <textarea class="form-control mb-3" rows="3" placeholder="Write your reasons here..."></textarea>
+      </div>
+
+      <!-- PERSONAL COMMITMENT -->
+      <div class="section">
+          <h4 class="section-title">✅ Personal Commitment</h4>
+          <p>By signing below, I commit to fully participating in the Choir Ministry and adhering to the policies set forth.</p>
+
+          <div class="row g-3">
+              <div class="col-md-6">
+                  <label class="form-label">Name:</label>
+                  <input type="text" class="form-control" placeholder="Enter your name">
+              </div>
+              <div class="col-md-6">
+                  <label class="form-label">Year of Study:</label>
+                  <input type="text" class="form-control" placeholder="Enter your year">
+              </div>
+          </div>
+
+          <div class="row g-3 mt-3">
+              <div class="col-md-6">
+                  <label class="form-label">Signature:</label>
+                  <input type="text" class="form-control" placeholder="Sign here">
+              </div>
+              <div class="col-md-6">
+                  <label class="form-label">Date:</label>
+                  <input type="date" class="form-control">
+              </div>
+          </div>
+      </div>
+
+      <!-- CHURCH USE ONLY -->
+      <div class="section mt-4">
+          <h4 class="section-title">📜 For Church Use Only</h4>
+          <div class="row g-3">
+              <div class="col-md-6">
+                  <label class="form-label">Ministry Leader:</label>
+                  <input type="text" class="form-control" placeholder="Leader's Name">
+              </div>
+              <div class="col-md-6">
+                  <label class="form-label">Date Approved:</label>
+                  <input type="date" class="form-control">
+              </div>
+          </div>
+      </div>
+
+      <!-- SUBMIT BUTTON -->
+      <div class="text-center mt-4">
+          <button class="btn btn-primary btn-lg" onclick="submitForm()">Submit Commitment</button>
+      </div>
   </div>
+</div>
 
-  
+<script>
+function submitForm() {
+  alert("Thank you for your commitment! Your form has been submitted successfully.");
+}
+</script>
+
 
 
 

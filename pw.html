@@ -130,21 +130,119 @@
 </nav>
 
 
-<div class="container py-5">
-    <!-- Praise and Worship Section -->
-    <div class="row align-items-center mb-5" data-aos="fade-up">
-      <div class="col-md-6">
-        <img src="img/2.jpg" alt="Praise and Worship Ministry" class="img-fluid rounded shadow-lg" loading="lazy">
-      </div>
-      <div class="col-md-6">
-        <h2 class="fw-bold">Praise and Worship Ministry</h2>
-        <p>The Praise and Worship Ministry leads the congregation in vibrant worship sessions, uplifting souls through music and praise.</p>
-        <a href="contact.html" class="btn btn-primary mt-3">Join Us</a>
-        <a href="commitment.html" class="btn btn-primary mt-3">fill commitmentForm</a>
+<div class="container my-5">
+  <div class="commitment-form p-5 rounded shadow-lg">
+      <h2 class="text-center form-title">🙌 Praise & Worship Ministry Commitment Form</h2>
+      <p class="text-center text-muted">"Serving with Excellence and Integrity"</p>
 
+      <!-- PRACTICES AND SERVICE MINISTRATION SECTION -->
+      <div class="section">
+          <h4 class="section-title">🎵 Practices & Service Ministration</h4>
+          <ul class="custom-list">
+              <li>Leads must select one song that has not been used in the past three weeks.</li>
+              <li>BGVs should study the song structure, instrumentation, and voices.</li>
+              <li>Attendance to ministry meetings, prayer sessions, rehearsals, and services is mandatory.</li>
+              <li>Leads and BGVs must arrive at least <b>10 minutes before</b> practice time.</li>
+              <li>Members absent from practices/prayers cannot back up songs.</li>
+          </ul>
       </div>
-    </div>
-    </div>
+
+      <!-- CLOTHING SECTION -->
+      <div class="section">
+          <h4 class="section-title">👗 Clothing Guidelines</h4>
+          <ul class="custom-list">
+              <li>🚫 <b>Not Allowed:</b> 
+                  <ul>
+                      <li>Short skirts/dresses, trousers (for ladies), T-shirts, shorts, tight or rugged trousers (for gents).</li>
+                      <li>Open shoes for men.</li>
+                  </ul>
+              </li>
+              <li>✅ Members must wear the prescribed attire for worship services.</li>
+              <li>🛑 No one will minister without approved attire during worship weekends.</li>
+              <li>✨ Maintain neatness at all times.</li>
+          </ul>
+      </div>
+
+      <!-- PROBATION SECTION -->
+      <div class="section">
+          <h4 class="section-title">🕰️ Probation Guidelines</h4>
+          <ul class="custom-list">
+              <li>New members:
+                  <ul>
+                      <li>🎤 5 weeks probation before back-up singing.</li>
+                      <li>🎼 10 weeks probation before leading worship.</li>
+                  </ul>
+              </li>
+              <li>🚨 Probation for:
+                  <ul>
+                      <li>Secularism</li>
+                      <li>Sexual immorality (fornication, cohabiting, etc.)</li>
+                      <li>Sexual advances (towards any gender)</li>
+                  </ul>
+              </li>
+              <li>❌ Inconsistent members will remain on probation until consistency is shown.</li>
+          </ul>
+      </div>
+
+      <!-- COMMITMENT SECTION -->
+      <div class="section">
+          <h4 class="section-title">✍️ Why Do You Wish to Join the Ministry?</h4>
+          <textarea class="form-control mb-3" rows="3" placeholder="Write your reasons here..."></textarea>
+      </div>
+
+      <!-- PERSONAL COMMITMENT -->
+      <div class="section">
+          <h4 class="section-title">💖 Personal Commitment</h4>
+          <p>By signing below, I commit to actively participating in the ministry, upholding its values, and dedicating my time to service.</p>
+
+          <div class="row g-3">
+              <div class="col-md-6">
+                  <label class="form-label">Name:</label>
+                  <input type="text" class="form-control" placeholder="Enter your name">
+              </div>
+              <div class="col-md-6">
+                  <label class="form-label">Year of Study:</label>
+                  <input type="text" class="form-control" placeholder="Enter your year of study">
+              </div>
+              <div class="col-md-6">
+                  <label class="form-label">Signature:</label>
+                  <input type="text" class="form-control" placeholder="Sign here">
+              </div>
+              <div class="col-md-6">
+                  <label class="form-label">Date:</label>
+                  <input type="date" class="form-control">
+              </div>
+          </div>
+      </div>
+
+      <!-- CHURCH USE ONLY -->
+      <div class="section mt-4">
+          <h4 class="section-title">📜 For Church Use Only</h4>
+          <div class="row g-3">
+              <div class="col-md-6">
+                  <label class="form-label">Ministry Leader:</label>
+                  <input type="text" class="form-control" placeholder="Leader's Name">
+              </div>
+              <div class="col-md-6">
+                  <label class="form-label">Date Approved:</label>
+                  <input type="date" class="form-control">
+              </div>
+          </div>
+      </div>
+
+      <!-- SUBMIT BUTTON -->
+      <div class="text-center mt-4">
+          <button class="btn btn-primary btn-lg" onclick="submitForm()">Submit Commitment</button>
+      </div>
+  </div>
+</div>
+
+<script>
+function submitForm() {
+  alert("Thank you for your commitment! Your form has been submitted successfully.");
+}
+</script>
+
   
 
 
